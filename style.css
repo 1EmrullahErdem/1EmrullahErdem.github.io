@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.con{
+    display: flex;
+    
+    width: 100vw;
+    height: 100vh;
+}
+.left{
+    background-image: url('./img/wp1.jpg');
+    background-size: cover;
+    background-color: white;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+   
+}
+.right{
+    background-image: url('./img/wp2.jpg');
+    background-size: cover;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.panel{
+    width: 70%;
+    background-color: white;
+    height:10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    display:flex ;
+    justify-content:flex-start;
+    padding: 50px;
+    align-items: center;
+
+
+
+}
+.pp{
+width: 40%;
+
+
+margin-top: 20px;
+
+}
+.ppimg{
+    width: 100%;
+    border-radius: 50%;
+}
+.title{
+    margin-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    background: linear-gradient(to right, #ffd89b  0%, #19547b 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.exp{
+    padding: 15px;
+    color: white;
+}
+.ricon{
+    width: 40px;
+}
+a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+ a:hover{
+     color:grey;
+     
+ }
+ .link{
+     margin-left: 20px;
+ }
+
+
+@media(min-width:738px)  {
+
+    .title{
+      
+    }
+  
+  
+  
+  }
+
